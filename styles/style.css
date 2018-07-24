@@ -1,37 +1,55 @@
 /*Type Selectors*/
 
+* {
+  /* border: solid tomato 1px; */
+}
+
 body {
   margin: 0;
   background-color: #f7f7f7;
+  font: 1rem/1.5 'Varela Round', sans-serif, Helvetica, 'Century Gothic';
 }
 
 header {
-  text-align: center;
+  padding: 10px;
 }
 
-h1{
-  font-size: 26px;
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.3;
   color: #3E474E;
+}
+h1{
+  font-size: 1.6rem;
 }
 
 h2 {
-  font-size: 20px;
-  color: #3E474E;
+  font-size: 1.25rem;
 }
 
 h3 {
-  font-size: 14px;
-  color: #3E474E;
+  font-size: .85rem;
 }
 
-nav {
+/* nav {
   width: 90%;
   margin: auto;
+} */
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 nav a {
   display: block;
-  text-decoration: none;
   background-color: #fff;
   margin-top: 5px;
   padding: 10px;
@@ -45,41 +63,69 @@ footer {
 
 #profile-picture {
 width: 70%;
-margin: 10%;
+padding: 10%;
 }
 
 
 #portfolio {
-  text-align: center;
+  /* width: 90%;
+  margin: auto; */
   background-color: #fff;
 }
 
 #portfolio img {
-  margin-left: 4px;
-  margin-right: 4px;
-  max-width: 90%;
+  /* margin-left: 4px;
+  margin-right: 4px; */
+  max-width: 100%;
+  /* padding: 10px 0; */
 }
 
 #contact {
   background-color: #f7f7f7;
-  text-align: center;
   border-bottom: solid 1px lightgrey;
 }
 
 /*Class Selectors*/
 
-.site-wrapper {
- width: 90%;
- margin: auto;
+.main-nav,
+.primary-content,
+.contact-container {
+  text-align: center;
 }
 
-.primary-content {
-  margin-top: 50px;
+.main-nav {
+  padding: 12px;
+}
+
+.site-wrapper {
+  margin: auto;
 }
 
 .portfolio-header {
   padding: 10%;
+  text-transform: uppercase;
+  font-weight: bolder:
 }
 
 .main-footer {
+}
+
+/*Layout Styles*/
+
+.main-nav,
+.primary-content,
+.main-footer,
+.footer,
+.contact-container {
+  width: 90%;
+  margin: auto;
+}
+
+.flex p {
+  padding:0 5px;
+}
+
+#portfolio {
+  width: 100%;
+  margin: auto;
 }

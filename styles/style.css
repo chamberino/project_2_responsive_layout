@@ -1,0 +1,85 @@
+/*Type Selectors*/
+
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  text-align: center;
+}
+
+h1{
+  font-size: 26px;
+  color: #3E474E;
+}
+
+h2 {
+  font-size: 20px;
+  color: #3E474E;
+}
+
+h3 {
+  font-size: 14px;
+  color: #3E474E;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  background-color: #fff;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+footer {
+  font-weight: bold;
+}
+
+/*ID Selectors*/
+
+#profile-picture {
+width: 70%;
+margin: 10%;
+}
+
+
+#portfolio {
+  text-align: center;
+  background-color: #fff;
+}
+
+#portfolio img {
+  margin-left: 4px;
+  margin-right: 4px;
+  max-width: 90%;
+}
+
+#contact {
+  background-color: #f7f7f7;
+  text-align: center;
+  border-bottom: solid 1px lightgrey;
+}
+
+/*Class Selectors*/
+
+.site-wrapper {
+ width: 90%;
+ margin: auto;
+}
+
+.primary-content {
+  margin-top: 50px;
+}
+
+.portfolio-header {
+  padding: 10%;
+}
+
+.main-footer {
+}
